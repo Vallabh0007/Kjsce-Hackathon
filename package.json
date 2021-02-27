@@ -2,8 +2,9 @@
   "name": "Kjsce-Hackathon",
   "version": "1.0.0",
   "description": "An online jourel and billing system for local vendors and small scale service providers <br>\r Tech Stack:\r Nodejs, MongoDb, Bootstrap",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start":"nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
