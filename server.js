@@ -20,9 +20,14 @@ const session = require('express-session');
 app.use(session({secret: 'Secreyyyy', resave: true, saveUninitialized: true})) 
 module.exports.session = session; //Unnecessary
 
+let registerController=require('./controllers/usercontroller');
+app.post('/api/register',registerController.register);
+
 app.get('/', async (req,res)=>{
     await res.render('index');
 });
+
+
 
 app.listen(PORT,(err) =>{
     if(err) throw err;
