@@ -8,7 +8,7 @@ module.exports.register=function(req,res){
     connection.query('INSERT INTO users SET ?',users, function (error, results, fields) {
       if (error) {
         res.json({
-            message:'there are some error with query'
+            message:'Error with signup query'
         })
       }else{
           res.json({
