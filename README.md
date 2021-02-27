@@ -3,9 +3,9 @@
 An online jourel and billing system for local vendors and small scale service providers <br>
 
 ## Tech Stack:
-..*Nodejs
-..*MongoDb
-..*Bootstrap
+* Nodejs
+* MongoDb
+* Bootstrap
 
 ## Contributors :
 ## - [Pratik Zinjurde](https://github.com/pratikpz18)
