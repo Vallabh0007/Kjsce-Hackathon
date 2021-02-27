@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS LINK -->
+    <link rel="stylesheet" href="CSS/homestyle.css" />
+
+    <title>Hackathon-Ecommerce</title>
+  </head>
+  <body>
+    <!-- Section1 -->
+    <header>
+      <div class="container-fluid" style="background-color: aqua; height: 3rem">
+        <div class="row">
+          <div class="col"><p class="p-3" id="Text_1">Hackathon</p></div>
+          <div class="col">
+           <a href=""><span class="float-end p-3"
+              ><i class="far fa-question-circle"></i
+            ></span> </a>
+            <a href=""> <span class="float-end p-3"><i class="fas fa-user"></i></span></a>
+            <a href=""><span class="float-end p-3"><i class="far fa-heart"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar Starts Here -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light shadow-lg bg-body rounded"
+        style="height: 4rem"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WooCommerce</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0" style="margin: auto">
+              <li class="nav-item p-3">
+                <button class="btn btn-outline-danger">Home</button>
+              </li>
+              <li class="nav-item p-3">
+                <button class="btn btn-outline-danger">List</button>
+              </li>
+              <li class="nav-item p-3">
+                <button class="btn btn-outline-danger">Contact</button>
+              </li>
+              <li class="nav-item p-3">
+                <button class="btn btn-outline-danger">Log out</button>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Ends Here -->
+    </header>
+    <!-- header Ends Here -->
+
+    <!-- Caraousel Starts Here -->
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img
+            src="./Images/Caraousel/cr1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img
+            src="./Images/Caraousel/cr2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="./Images/Caraousel/cr3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Caraousel Ends Here -->
+
+    <!-- why WooCommerce -->
+    <section id="category">
+    <div class="row">
+      <div class="container mt-5 col-lg-4 col-md-6 col-sm-12">
+        <div class="Title text-center">
+          <h3><span style="color: aqua">Women</span></h3>
+        </div>
+        <div class="row mt-5" id="Data1">
+          <div class="col text-center">
+            <a href=""
+              ><img class="img-thumbnail"
+                src="./Images/Why/women.jpg"
+                style="background-size: cover"
+                id="Ims1"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 col-lg-4 col-md-6 col-sm-12">
+        <div class="Title text-center">
+          <h3><span style="color: aqua">Men</span></h3>
+        </div>
+        <div class="row mt-5" id="Data1">
+          <div class="col text-center">
+            <a href=""
+              ><img class="img-thumbnail"
+                src="./Images/Why/men.jpg"
+                style="background-size: cover"
+                id="Ims1"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 col-lg-4 col-md-6 col-sm-12">
+        <div class="Title text-center">
+          <h3><span style="color: aqua">Assecesory</span></h3>
+        </div>
+        <div class="row mt-5" id="Data1">
+          <div class="col text-center">
+            <a href=""
+              ><img class="img-thumbnail"
+                src="./Images/Why/electronics.jpg"
+                style="background-size: cover"
+                id="Ims1"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+
+    <!-- card Section -->
+    <section id="item">
+      <div class="container mt-5" style="margin: auto; width: 100%">
+        <div class="row" id="Data2">
+          <div class="col-sm mt-5">
+            <a href=""
+              ><img
+                src="./Images/Why/Sc1.jpg"
+                style="background-size: cover"
+                width="350px"
+                height="300px"
+                alt=""
+            /></a>
+            <h2>Heading</h2>
+          </div>
+          <div class="col-sm mt-5">
+            <a href=""
+              ><img
+                src="./Images/Why/Sc1.jpg"
+                style="background-size: cover"
+                width="350px"
+                height="300px"
+                alt=""
+            /></a>
+            <h2>Heading</h2>
+          </div>
+          <div class="col-sm mt-5">
+            <a href=""
+              ><img
+                src="./Images/Why/Sc1.jpg"
+                style="background-size: cover"
+                width="350px"
+                height="300px"
+                alt=""
+            /></a>
+            <h2>Heading</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5" style="margin: auto; width: 100%">
+        <div class="row" id="Data2">
+          <div class="col-sm mt-5">
+            <a href=""
+              ><img
+                src="./Images/Why/Sc1.jpg"
+                style="background-size: cover"
+                width="350px"
+                height="300px"
+                alt=""
+            /></a>
+            <h2>Heading</h2>
+          </div>
+          <div class="col-sm mt-5">
+            <a href=""
+              ><img
+                src="./Images/Why/Sc1.jpg"
+                style="background-size: cover"
+                width="350px"
+                height="300px"
+                alt=""
+            /></a>
+            <h2>Heading</h2>
+          </div>
+          <div class="col-sm mt-5">
+            <a href=""
+              ><img
+                src="./Images/Why/Sc1.jpg"
+                style="background-size: cover"
+                width="350px"
+                height="300px"
+                alt=""
+            /></a>
+            <h2>Heading</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+    <footer class="footer">
+        <h6>2021 &copy;</h6>
+        <p>All rights are reserved</p> 
+    </footer>
+  </body>
+</html>
