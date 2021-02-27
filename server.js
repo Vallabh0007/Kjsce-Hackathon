@@ -22,12 +22,17 @@ module.exports.session = session; //Unnecessary
 
 let registerController=require('./controllers/usercontroller');
 app.post('/api/register',registerController.register);
+app.post('/api/login',registerController.login);
 
 app.get('/', async (req,res)=>{
     await res.render('index');
 });
-
-
+app.get('/api/login', async (req,res)=>{
+    await res.render('login');
+});
+app.get('/home', async (req,res)=>{
+    await res.render('home');
+});
 
 app.listen(PORT,(err) =>{
     if(err) throw err;
