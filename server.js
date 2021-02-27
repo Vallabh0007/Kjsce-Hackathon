@@ -34,6 +34,11 @@ app.get('/home', async (req,res)=>{
     await res.render('home');
 });
 
+app.get('/logout',function(req,res){
+    req.session.loggedIn=false;
+    res.redirect('/');
+});
+
 app.listen(PORT,(err) =>{
     if(err) throw err;
     require('./model/createDb.js').createDatabase();
