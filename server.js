@@ -24,6 +24,8 @@ app.get('/', async (req,res)=>{
     await res.render('index');
 });
 
+
+
 app.listen(PORT,(err) =>{
     if(err) throw err;
     require('./model/createDb.js').createDatabase();
