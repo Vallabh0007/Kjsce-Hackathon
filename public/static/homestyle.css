@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: Montserrat-Black;
+}
+body{
+    margin: 0;
+}
+/* navigation bar */
+.container-fluid{
+    padding: 0;
+}
+nav{
+    background-color: #01959C;
+}
+.button{
+    margin: 5px 7px;
+    border-radius: 5px;
+    width:80px;
+    height:40px;
+    text-align:center;
+    line-height:1.1em;
+    font-size:1.1em
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+.search-bar{
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* media query */
+@media(max-width: 992px){
+    nav{
+        text-align: center;
+    }
+}
