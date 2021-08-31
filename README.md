@@ -11,5 +11,5 @@ An online jourel and billing system for local vendors and small scale service pr
 ## Contributors :
 ## - [Pratik Zinjurde](https://github.com/pratikpz18)
 ## - [Sahil Velhal](https://github.com/sahil-777)
-## - [Vallabh Khalnivas](https://github.com/Vallabh0007)
+## - [Vallabh Khasnivas](https://github.com/Vallabh0007)
 ## - [Amit Kumar Yadav](https://github.com/yadavamitk221)
